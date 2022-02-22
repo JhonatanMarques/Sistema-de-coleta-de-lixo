@@ -1,0 +1,71 @@
+CREATE DATABASE recicla_nit;
+
+use recicla_nit;
+
+
+CREATE TABLE usuarios (
+  id_usuario int(11) AUTO_INCREMENT primary key,
+  nome_usuario VARCHAR(45) NOT NULL,
+  telefone_usuario INT(11) NOT NULL,
+  cpf_usuario INT(11) NOT NULL,
+  email_usuario VARCHAR(45) NOT NULL,
+  senha_usuario VARCHAR(45) NOT NULL,
+ )
+ENGINE = InnoDB;
+
+CREATE TABLE pontodecoleta (
+  id_pontodecoleta int(11) AUTO_INCREMENT primary key,
+  nome_pontodecoleta VARCHAR(50) NOT NULL,
+  bairro_pontodecoleta VARCHAR(30) NOT NULL,
+  endereco_pontodecoleta VARCHAR(50) NOT NULL,
+  complemento_pontodecoleta VARCHAR(30) NOT NULL  
+)
+
+CREATE TABLE Administradores (
+  id_administrador INT AUTO_INCREMENT primary key ,
+  nome_administrador VARCHAR(45) NOT NULL,
+  cpf_administrador INT(11) NOT NULL,
+  telefone_administrador INT(11) NOT NULL,
+  admissao_administrador DATE NOT NULL,
+  email_administrador VARCHAR(45) NOT NULL,
+  senha_administrador VARCHAR(45) NOT NULL,
+ )
+
+CREATE TABLE agendamentos (
+  id_agendamento int(11) AUTO_INCREMENT primary key,
+  nome_agendamento VARCHAR(45),
+  cpf_agendamento INT(11),
+  bairro_agendamento VARCHAR(45),
+  endereco_agendamento VARCHAR(45) ,
+  complemento_agendamento VARCHAR(45),
+  cep_agendamento INT ,
+  email_agendamento VARCHAR(45) ,
+  telefone_agendamento INT ,
+  ponto_agendamento VARCHAR(45) ,
+  data_agendamento DATE ,
+  lixo_agendamento VARCHAR(45)
+  )
+ENGINE = InnoDB;
+
+CREATE TABLE coletores (
+  id_coletores int (11) AUTO_INCREMENT primary key,
+  nome_coletor VARCHAR(45) NOT NULL,
+  telefone_coletor VARCHAR(45) NOT NULL,
+  cpf_coletor INT NOT NULL,
+  admissao_coletor DATE NOT NULL,
+  email_coletor VARCHAR(45) NOT NULL,
+  senha_coletor VARCHAR(45) NOT NULL
+)
+  
+ENGINE = InnoDB;
+
+CREATE TABLE lixo (
+  id_lixo int (11) AUTO_INCREMENT primary key,
+  nome_lixo VARCHAR(45) NOT NULL
+)
+
+
+
+
+
+

@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+	
+}
+body{
+	background-image: url(../img/fundo5.png); 
+	background-position: 50% 34%;
+	color: white;
+	font-family: montserrat;
+	background-repeat: no-repeat;
+
+}
+input{
+	display: block;
+	height: 50px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1.2px solid white;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.01);
+	color: white;
+	outline: none;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#1aa33c;
+    list-style:none;
+	text-align: center;
+}
+#menu ul li { 
+	display: inline; 
+	
+}
+#menu ul li h1 {
+	padding: 20px;
+	font-size: 35px;
+
+}
+#menu ul li a {
+    
+    display: inline-block;
+    background-color:#EDEDED;
+    color: white;
+    text-decoration: none;
+    background-color: #1aa33c;
+	padding: 20px;
+	font-size: 18px;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #356648;
+}
+#select-form{
+	display: block;
+	height: 50px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1.2px solid white;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.01);
+	color: white;
+	outline: none;
+}
+#opcao {
+	background-color:gray;
+}
+
+div#corpo-form{
+	
+	width: 420px;
+	margin: 220px auto 220px auto;
+}
+div#corpo-form-Cad
+{
+	width: 420px;
+	margin: 80px auto 80px auto;
+}
+div#corpo-form h1, div#corpo-form-Cad h1, div#corpo-form h2{
+	text-align: center;
+	padding: 20px;
+}
+
+#rodape{
+	background-color:#1aa33c;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+#rodape-coletor{
+	background-color:#1aa33c;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	top: 260px;
+}
+
+#lixo label{
+	font-size: 16px;
+}
+#teste p{
+display: block;
+height: 208px;
+width: 1500px;
+margin: auto;
+font-size: 25px;
+padding: 10px 20px;
+background-color: rgba(255,255,255,0.01);
+color: white;
+outline: none;
+}
+#caixa{
+	margin: 30px;
+}
+#caixa p{
+	font-size: 20px;
+}
+
+input[type=checkbox]{
+	display: inline-block;
+	width: 35px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color:#1aa33c;
+	border: none;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color:#356648;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #fff;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+div#msg-sucesso{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50,205,50,.3);
+	border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250,128,114,.3);
+	border: 1px solid rgb(165,42,42);
+}
+#tabela{
+	margin-top: 60px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	border:1px solid gray;
+}
+
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.centralizar{
+	text-align: center;
+}
+#texto{
+	width: 418px !important;
+    height: 137px !important;
+}
+.centralizar-titulo{
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+
+
